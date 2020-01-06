@@ -39,6 +39,11 @@ span {
   text-decoration: underline;
 }
 
+.logo {
+  margin-left: 130px;
+  padding-top: 15px;
+}
+
 .sect-one {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -62,13 +67,17 @@ span {
   color: white;
 }
 
+.sect-two {
+  padding-bottom: 50px;
+}
+
 .boxes {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-auto-columns: minmax(33%, auto);
   margin-top: 2%;
-  margin-left: 23%;
-  margin-right: 23%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .box-one {
@@ -90,11 +99,18 @@ span {
 .meal {
   text-align: center;
   text-decoration: underline;
+  font-weight: bold;
+}
+
+.meal:hover {
+  color: olivedrab;
+  font-weight: bold;
 }
 
 .sect-three {
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 #last-p {
@@ -109,8 +125,18 @@ button {
   font-size: 11px;
 }
 
+button:hover {
+  background-color: green;
+  color: white;
+}
+
 footer {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(https://live.staticflickr.com/65535/49337517183_7edc218404_k.jpg);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
+  color: white;
 }
