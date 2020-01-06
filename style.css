@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: white;
   color: black;
   margin: 0; padding: 0;
 }
@@ -29,26 +29,67 @@ li a {
   text-transform: uppercase;
 }
 
+header a:hover{
+  color: navy;
+  font-weight: bold;
+}
+
 span {
   color: navy;
   text-decoration: underline;
 }
 
 .sect-one {
-  background-color: green;
-  height: 350px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(https://live.staticflickr.com/65535/49337517183_7edc218404_k.jpg);
+  background-size: cover;
+  height: 470px;;
   text-align: center;
 }
 
 .quote {
-  font-size: 25px;
-  padding-top: 70px;
+  font-size: 30px;
+  padding-top: 150px;
+  color: white;
 }
 
 .message {
-  font-size: 30px;
-  margin-right: 200px;
-  margin-left: 200px;
+  font-size: 40px;
+  margin-right: 240px;
+  margin-left: 240px;
+  color: white;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-auto-columns: minmax(33%, auto);
+  margin-top: 2%;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+.box-one {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.box-two {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+.box-three {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.meal {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .sect-three {
